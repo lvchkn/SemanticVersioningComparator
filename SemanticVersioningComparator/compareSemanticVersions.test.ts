@@ -32,18 +32,18 @@ test('compares semantic versions - negative scenario #3', () => {
     expect(semVerCompare("", "2.2")).toBe("One of the strings is empty!");
 });
 
-test('compares semantic versions - negative scenario #3', () => {
+test('compares semantic versions - negative scenario #4', () => {
     expect(semVerCompare("3", "")).toBe("One of the strings is empty!");
 });
 
-test('compares semantic versions - negative scenario #3', () => {
+test('compares semantic versions - negative scenario #5', () => {
     expect(semVerCompare("", "")).toBe("One of the strings is empty!");
 });
 
-test('compares semantic versions - negative scenario #4', () => {
+test('compares semantic versions - negative scenario #6', () => {
     expect(semVerCompare("wrawrawra", "2.2")).toBe("One of the strings contains non-numeric symbols!");
 });
 
-test('compares semantic versions - negative scenario #4', () => {
+test('compares semantic versions - negative scenario #7', () => {
     expect(semVerCompare("wrawrawra", undefined)).toBe("One of the strings contains non-numeric symbols!");
 });
