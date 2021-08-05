@@ -1,0 +1,7 @@
+{
+    "dependencies": {},
+    "devDependencies": {
+        "@tsconfig/recommended": "^1.0.1",
+        "@types/node": "^16.4.12"
+    }
+}
